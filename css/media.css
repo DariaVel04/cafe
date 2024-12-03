@@ -1,0 +1,340 @@
+@media (max-width : 1024px){
+    .lastest_blog_wrapper{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .video_wrapper{
+        flex-direction: column;
+    }
+
+    .video_wrapper_left{
+        padding-left: 0px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .map_wrapper{
+        flex-direction: column;
+    }
+
+    .map_wrapper_content{
+        padding-left: 0px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .footer_top_list{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer_bottom_wrapper{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer_bottom_center >ul{
+        margin-left: 0px;
+    }
+
+    .footer_bottom_right > a {
+        padding-left: 0px;
+    }
+
+    .ourstory_wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .question_wrapper{
+        flex-direction: column;
+    }
+
+
+
+    .question_wrapper_right{
+        margin: 0 auto;
+    }
+
+    .tomatos_title_img{
+        width: 100%;
+    }
+
+    .articles_wrapper_list{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .articles_wrapper_list>li{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .articles_list_text{
+        margin: 0 auto;
+        max-width: 227px;
+    }
+}
+
+@media (max-width : 768px){
+    .header_wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header_content{
+        text-align: center;
+    }
+
+    .aboutus_wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_bottom_right >a{
+        padding-left: 0px;
+    }
+
+    .footer_bottom_center >ul{
+        margin-left: 0px;
+    }
+
+    .footer_bottom_wrapper{
+        justify-content: space-between;
+    }
+
+    .featured_blogs_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .featured_blogs_left {
+        width: 100%;
+    }
+
+    .featured_blogs_wrapper {
+        height: auto;
+    }
+
+    .featured_blogs_right{
+        width: 100%;
+    }
+
+    .featured_blogs_left{
+        padding: 136px 0px 40px 0px;
+    }
+
+}
+
+
+@media (max-width : 425px){
+    .menu{
+        display: none;
+    }
+
+    .header_image{
+        display: block;
+        width: 100%;
+    }
+
+    .aboutus_photo{
+        flex-direction: column;
+    }
+
+    .aboutus_img1{
+        top: 0px;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .serving_title_wrapper{
+        flex-direction: column;
+    }
+
+    .serving_block_list{
+        flex-direction: column;
+    }
+
+    .serving_block_list>li>p{
+        flex-wrap: wrap;
+    }
+
+    .ourmenu_title_wrapper{
+        flex-direction: column;
+    }
+
+    .ourmenu_block_list >li>img{
+        display: block;
+        width: 100%;
+    }
+
+    .ourstory_left_photo{
+        
+        flex-direction: column;
+    }
+
+    .ourmenu_wrapper2 {
+        flex-direction: column;
+    }
+
+    .menu_button{
+        flex-direction: column;
+    }
+
+    .menu_block_wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu_block_wrapper > li{
+        width: 80%;
+    }
+
+    .menu_block_wrapper > li > div{
+        padding: 0px;
+    }
+
+    .question_wrapper_left>h1{
+        text-align: center;
+    }
+
+    .question_wrapper_left>p{
+        text-align: center;
+    }
+
+    .question_wrapper_input>input{
+        width: 180px;
+    }
+
+    .question_wrapper_left>input{
+        width: 400px;
+        height: 100px;
+    }
+
+    .question_wrapper_left>button{
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .question_wrapper_right{
+        display: none;
+    }
+
+    .serving_block_list > li{
+        width: 100%;
+    }
+
+    .video_wrapper_left >p{
+        width: 100%;
+    }
+
+    .tomatos_title_wrapper>h1{
+        font-size: 30px;
+    }
+
+    .andrew_jonson{
+        padding-left: 0px;
+    }
+
+    .bloginner_text_wrapper >h2{
+        font-size: 25px;
+    }
+
+    .history_bottom_list{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .company_wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+}
+
+@media (max-width : 375px){
+    .question_wrapper_input>input{
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .question_wrapper_left>input{
+        width: 340px;
+        margin: 0 auto;
+    }
+
+    .inner_autor {
+        gap: 0px;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width : 320px){
+    .video_wrapper_left{
+        width: 320px;
+        align-items: center;
+    }
+
+    .video_wrapper_left>p{
+        width: 300px;
+    }
+
+    .lastest_blog_card_text{
+        padding: 0px;
+
+    }
+
+    .lastest_blog_card>img{
+        display: block;
+        width: 100%;
+    }
+
+
+    .question_wrapper_input>input{
+        width: 130px;
+        margin: 0 auto;
+    }
+
+    .question_wrapper_left>input{
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .andrew_jonson{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inner_autor {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .featured_blogs_list_text >h3{
+        font-size: 15px;
+    }
+
+    .aboutus_content_list{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .history_bottom_wrapper {
+        padding: 0px;
+    }
+
+    .company_wrapper_left > h2{
+        font-size: 35px;
+    }
+
+    .company_wrapper_right >h2 {
+        font-size: 25px;
+    }
+}
+
